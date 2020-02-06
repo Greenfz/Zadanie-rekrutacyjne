@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe08e0b0-5873-4837-8397-994dc3e0860c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Zadanie-rekrutacyjne" />
+  </component>
+  <component name="ProjectId" id="1XIpBbMbm1h8IZ9CAuepB5WRCei" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="toXmlParsing" />
+      <recent name="fromXmlParser" />
+      <recent name="mappedAccountsFacade" />
+      <recent name="accountValidation" />
+      <recent name="accountValidation.validationStrategy" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.IbanValidatorTest.codeContainsLetters_shouldReturnFalse">
+    <configuration name="ProcesorXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProcesorXML" />
+      <module name="ProcesorXML" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ProcesorXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProcesorXML" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomDeclarationParserTest.emptyCollection_shouldNotWrite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProcesorXML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toXmlParsing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="toXmlParsing" />
+      <option name="MAIN_CLASS_NAME" value="toXmlParsing.CustomDeclarationParserTest" />
+      <option name="METHOD_NAME" value="emptyCollection_shouldNotWrite" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IbanValidatorTest.codeContainsLetters_shouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProcesorXML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="accountValidation.validationStrategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="accountValidation.validationStrategy" />
+      <option name="MAIN_CLASS_NAME" value="accountValidation.validationStrategy.IbanValidatorTest" />
+      <option name="METHOD_NAME" value="codeContainsLetters_shouldReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IbanValidatorTest.tooShort_shouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProcesorXML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="accountValidation.validationStrategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="accountValidation.validationStrategy" />
+      <option name="MAIN_CLASS_NAME" value="accountValidation.validationStrategy.IbanValidatorTest" />
+      <option name="METHOD_NAME" value="tooShort_shouldReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IbanValidatorTest.codeContainsLetters_shouldReturnFalse" />
+        <item itemvalue="Application.ProcesorXML" />
+        <item itemvalue="JUnit.IbanValidatorTest.tooShort_shouldReturnFalse" />
+        <item itemvalue="JUnit.All in ProcesorXML" />
+        <item itemvalue="JUnit.CustomDeclarationParserTest.emptyCollection_shouldNotWrite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe08e0b0-5873-4837-8397-994dc3e0860c" name="Default Changelist" comment="" />
+      <created>1580743328602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580743328602</updated>
+      <workItem from="1580743331548" duration="16198000" />
+      <workItem from="1580847736458" duration="6101000" />
+      <workItem from="1580895273919" duration="30740000" />
+      <workItem from="1580982944207" duration="7880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1032" y="182" key="#Project_Structure" timestamp="1580743848512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580743848512" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580987730133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580987730133" />
+    <state x="1121" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1580990050094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1121" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580990050094" />
+    <state x="756" y="380" width="408" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580949420899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="380" width="408" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1580949420899" />
+    <state x="572" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580983048535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="572" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580983048535" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580951784435">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580951784435" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1580854083580">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580854083580" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1580991219861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580991219861" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1580991219861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580991219861" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1580991219861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580991219861" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1580991219861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580991219861" />
+    <state width="1876" height="347" key="GridCell.Tab.1.bottom" timestamp="1580987758998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580987758998" />
+    <state width="1876" height="347" key="GridCell.Tab.1.center" timestamp="1580987758998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580987758998" />
+    <state width="1876" height="347" key="GridCell.Tab.1.left" timestamp="1580987758998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580987758998" />
+    <state width="1876" height="347" key="GridCell.Tab.1.right" timestamp="1580987758998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580987758998" />
+    <state x="775" y="454" key="ReplaceDuplicatesPrompt" timestamp="1580914036566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="454" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1580914036566" />
+    <state x="880" y="166" key="SettingsEditor" timestamp="1580946581277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="880" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580946581277" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580895279649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580895279649" />
+    <state x="718" y="227" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580984607533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="227" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580984607533" />
+    <state x="1046" y="279" width="540" height="497" key="extract.method.dialog" timestamp="1580990928145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1046" y="279" width="540" height="497" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580990928145" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1580988554108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580988554108" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1580985667394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580985667394" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1580986230298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580986230298" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AccountsProcessing/AccountsProcessorTest.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
