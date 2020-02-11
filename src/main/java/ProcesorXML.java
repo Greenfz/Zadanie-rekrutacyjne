@@ -30,6 +30,8 @@ public class ProcesorXML {
 //        xmlParser = new CustomDeclarationParser();
 
         try {
+            inputFilePath = "input.xml";
+            outputFilePath = "output.xml";
             List<Account> accountsFromFile = fromXmlParserFacade.getAccountsListFromXmlFile(inputFilePath);
             Set<Account> validSortedAccounts = accountsProcessor.validateAndSortAccounts(accountsFromFile);
             AccountListWrapper accountListWrapper = new AccountListWrapper(validSortedAccounts);

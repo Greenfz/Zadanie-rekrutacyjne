@@ -81,14 +81,14 @@ public class JacksonDeclarationParserTest {
             "    <name>a</name>\r\n" +
             "    <currency>a</currency>\r\n" +
             "    <balance>22.0</balance>\r\n" +
-            "    <closingDate>2020-02-06</closingDate>\r\n" +
+            "    <closingDate>" + LocalDate.now() + "</closingDate>\r\n" +
             "  </account>\r\n" +
             "  <account>\r\n" +
             "    <iban>22</iban>\r\n" +
             "    <name>b</name>\r\n" +
             "    <currency>b</currency>\r\n" +
             "    <balance>11.0</balance>\r\n" +
-            "    <closingDate>2020-02-06</closingDate>\r\n" +
+            "    <closingDate>" + LocalDate.now() + "</closingDate>\r\n" +
             "  </account>\r\n" +
             "</accounts>\r\n";
 }

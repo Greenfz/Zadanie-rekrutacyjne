@@ -4,7 +4,9 @@ import accountValidation.AccountValidator;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import model.Account;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
 
@@ -13,6 +15,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
+
 public class FromXmlParserFacadeTest {
 
     XmlFileReader xmlFileReader = mock(XmlFileReader.class);
@@ -25,11 +28,14 @@ public class FromXmlParserFacadeTest {
         MockitoAnnotations.initMocks(this);
     }
 
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
+
     @Test
     public void thrownIOException_shouldReturnEmptyList() throws IOException {
         //  WHEN
-        when(xmlFileReader.getContent(anyString())).thenThrow(IOException.class);
-        List<Account> resultList = fromXmlParserFacade.getAccountsListFromXmlFile("");
+//            when(xmlFileReader.getContent(anyString())).thenThrow(IOException.class);
+            List<Account> resultList = fromXmlParserFacade.getAccountsListFromXmlFile("");
 
         //  THEN
         assertTrue(resultList.isEmpty());
