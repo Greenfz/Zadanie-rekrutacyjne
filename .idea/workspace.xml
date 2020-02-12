@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe08e0b0-5873-4837-8397-994dc3e0860c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ProcesorXML.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ProcesorXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProcesorXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fromXmlParser/FromXmlParserFacadeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fromXmlParser/FromXmlParserFacadeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/toXmlParsing/CustomDeclarationParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/toXmlParsing/CustomDeclarationParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/toXmlParsing/JacksonDeclarationParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/toXmlParsing/JacksonDeclarationParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/FilipProgramy/SB/ProcesorXML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -68,14 +62,14 @@
     <option name="myCommands">
       <command value="mvn deploy" />
       <command value="mvn dependency:copy-dependencies" />
-      <command value="mvn test" />
-      <command value="mvn compile" />
       <command value="mvn build" />
       <command value="mvn package" />
+      <command value="mvn test" />
       <command value="mvn clean" />
+      <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in ProcesorXML">
+  <component name="RunManager" selected="Application.ProcesorXML">
     <configuration name="ProcesorXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProcesorXML" />
       <module name="ProcesorXML" />
@@ -140,9 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProcesorXML" />
         <item itemvalue="JUnit.All in ProcesorXML" />
         <item itemvalue="JUnit.FromXmlParserFacadeTest.thrownIOException_shouldReturnEmptyList" />
-        <item itemvalue="Application.ProcesorXML" />
         <item itemvalue="JUnit.FromXmlParserFacadeTest.thrownJsonProcessingException_shouldReturnEmptyList" />
         <item itemvalue="JUnit.FromXmlParserFacadeTest" />
       </list>
@@ -163,7 +157,8 @@
       <workItem from="1580895273919" duration="30740000" />
       <workItem from="1580982944207" duration="7880000" />
       <workItem from="1581424219604" duration="110000" />
-      <workItem from="1581424750202" duration="11156000" />
+      <workItem from="1581424750202" duration="17749000" />
+      <workItem from="1581496233640" duration="372000" />
     </task>
     <servers />
   </component>
@@ -191,34 +186,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="572" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580983048535" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580951784435">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581496587548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580951784435" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1581429010684">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581496587548" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1581496784597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581429010684" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581496784597" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1581429699148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581429699148" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1581436846804">
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1581496782821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581436846804" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1581436846804">
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581496782821" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1581496782821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581436846804" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1581436846804">
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581496782821" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1581496782821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581436846804" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1581436846804">
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581496782821" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1581496782821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581436846804" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581496782821" />
     <state width="1876" height="347" key="GridCell.Tab.1.bottom" timestamp="1580987758998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,10 +238,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="880" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580946581277" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581424751091">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581496233801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581424751091" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581496233801" />
     <state x="718" y="227" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580984607533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,24 +254,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580988554108" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1581436846816">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1581496770050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581436846816" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581496770050" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1580986230298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580986230298" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/AccountsProcessing/AccountsProcessorTest.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

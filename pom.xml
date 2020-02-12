@@ -6,7 +6,6 @@
     <groupId>org.example</groupId>
     <artifactId>ProcesorXML</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <packaging>jar</packaging>
 
 
@@ -16,13 +15,8 @@
         <resources>
             <resource>
                 <directory>src/main/resources/</directory>
-                <includes>
-                    <include>input.xml</include>
-                </includes>
             </resource>
-
         </resources>
-
 
         <plugins>
 
@@ -42,11 +36,10 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>2.2-beta-5</version>
                 <configuration>
-                    <!-- get all project dependencies -->
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
-                    <!-- MainClass in mainfest make a executable jar -->
+
                     <archive>
                         <manifest>
                             <mainClass>ProcesorXML</mainClass>
@@ -67,7 +60,6 @@
             </plugin>
 
         </plugins>
-
 
     </build>
 
